@@ -8,8 +8,11 @@ print("你好，AI 应用开发！")
 print("1 + 1 =", 1 + 1)
 
 # 3. 变量：把数据存起来
-name = "chehill"
+name = "chehill11"
 print("我的 GitHub 用户名是：" + name)
+
 
 # 4. 尝试修改代码：
 #    把上面的 name 改成你自己的名字，再运行一次，看看变化
+age =20
+print("我的年龄是：",age,"岁")
