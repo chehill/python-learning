@@ -1,7 +1,0 @@
-#python 缓存
-_pycache_/
-*.pyc
-
-#系统文件
-.DS_Store
-Thumbs.db
