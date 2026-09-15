@@ -6,9 +6,9 @@ print(my_utils.greet("小明"))
 # 2.
 for i in range(10):
     if my_utils.is_even(i):
-        print("是偶数")
+        print(f"{i}是偶数")
     else:
-        print("是奇数")
+        print(f"{i}是奇数")
 # 3.
 def retry_call(max_attempts=5):
     attempt=0
