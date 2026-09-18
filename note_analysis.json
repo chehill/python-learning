@@ -1,0 +1,10 @@
+{
+  "title": "Python 字典学习",
+  "tags": [
+    "Python",
+    "字典",
+    "requests"
+  ],
+  "summary": "学习Python字典的使用，遇到KeyError问题后改用.get()方法。",
+  "difficulty": "中等"
+}

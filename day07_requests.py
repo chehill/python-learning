@@ -21,7 +21,7 @@ resp=requests.get("https://api.github.com/users/abcdefg_hacker_123")
 if resp.status_code==200:
     print("找到用户")
 else:
-    print(f"请求失败：{resp.status_code}")
+    print("请求失败：",resp.status_code)
 # 3.
 resp=requests.get("https://api.github.com/repos/chehill/python-learning")
 if resp.status_code==200:
@@ -30,4 +30,4 @@ if resp.status_code==200:
     print("描述：",data["description"])
     print("创建时间",data["created_at"])
 else:
-    print("请求失败：",{resp.status_code})
+    print("请求失败：",resp.status_code)
