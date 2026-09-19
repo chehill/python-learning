@@ -14,6 +14,9 @@ def physics_teacher():
 def strict_interviewer():
     return "你是严肃的技术面试官，回答要挑毛病。"
 
+def Office_assistant():
+    return "你是一位文员助理，会使用编程处理表格等，擅长各种表格制作和数据统计。"
+
 
 def default():
     return "你是一位简洁的助手。"
@@ -23,4 +26,5 @@ PERSONAS = {
     "physics": physics_teacher,
     "interviewer": strict_interviewer,
     "default": default,
+    "office":Office_assistant,
 }

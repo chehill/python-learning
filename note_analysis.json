@@ -3,8 +3,9 @@
   "tags": [
     "Python",
     "字典",
-    "requests"
+    "requests",
+    "错误处理"
   ],
-  "summary": "学习Python字典的使用，遇到KeyError问题后改用.get()方法。",
+  "summary": "学习 Python 字典，使用 .get() 解决 KeyError。",
   "difficulty": "中等"
 }
